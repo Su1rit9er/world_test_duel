@@ -3,3 +3,6 @@
 .idea/
 __pycache__/
 *.pyc
+
+stats.db
+stats.db-*
