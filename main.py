@@ -6,11 +6,12 @@ import time
 from pathlib import Path
 
 from quiz import Quiz
+from buttons import Buttons, prepare
 
 
 def console():
     quiz = Quiz()
-    print(quiz.reply(0, '/start'))
+    print(quiz.handle(0, '/start')[0][1])
     while True:
         try:
             text = input('> ')
@@ -19,7 +20,8 @@ def console():
             break
         if text == '/exit':
             break
-        print(quiz.reply(0, text))
+        for uid, msg in quiz.handle(0, text):
+            print(msg)
 
 
 def error(err):
@@ -82,44 +84,31 @@ def run():
         if '--check' in sys.argv:
             return
         quiz = Quiz()
+        ui = Buttons(quiz)
         marker = None
         batch = []
-        pending = None
+        pending = []
         print('Бот запущен. Для остановки нажми Ctrl+C.')
         while True:
             try:
                 if not batch:
-                    args = {'timeout': 30, 'types': 'bot_started,message_created'}
+                    args = {'timeout': 30, 'types': 'bot_started,message_created,message_callback'}
                     if marker is not None:
                         args['marker'] = marker
                     data = call(api, 'GET', '/updates', params=args)
                     batch = data.get('updates', [])
                     marker = data.get('marker', marker)
                 while batch:
-                    if pending is None:
-                        event = batch[0]
-                        kind = event.get('update_type')
-                        if kind == 'bot_started':
-                            user, text = event.get('user', {}), '/start'
-                        elif kind == 'message_created':
-                            msg = event.get('message', {})
-                            if msg.get('recipient', {}).get('chat_type') != 'dialog':
-                                batch.pop(0)
-                                continue
-                            user = msg.get('sender', {})
-                            text = msg.get('body', {}).get('text') or ''
-                        else:
+                    if not pending:
+                        pending = prepare(ui, batch[0])
+                        if not pending:
                             batch.pop(0)
                             continue
-                        uid = user.get('user_id')
-                        if uid is None or user.get('is_bot'):
-                            batch.pop(0)
-                            continue
-                        pending = (uid, quiz.reply(uid, text))
-                    uid, reply = pending
-                    call(api, 'POST', '/messages', params={'user_id': uid}, json={'text': reply})
-                    pending = None
-                    batch.pop(0)
+                    path, args, body = pending[0]
+                    call(api, 'POST', path, params=args, json=body)
+                    pending.pop(0)
+                    if not pending:
+                        batch.pop(0)
                     time.sleep(0.6)
             except (httpx.HTTPError, ValueError, RuntimeError) as err:
                 print(error(err))
@@ -128,10 +117,11 @@ def run():
                     if code in (401, 409):
                         raise SystemExit('Бот остановлен. Исправь указанную причину и запусти снова.')
                     if 400 <= code < 500 and code != 429:
-                        if pending is None:
+                        if not pending:
                             raise SystemExit('Бот остановлен из-за ошибки запроса.')
-                        pending = None
-                        batch.pop(0)
+                        pending.pop(0)
+                        if not pending:
+                            batch.pop(0)
                 print('Повтор через 5 секунд.')
                 time.sleep(5)
 
