@@ -538,5 +538,4001 @@
     "explanation": "Мёда было 1,85 − 0,35 = 1,5 кг, съели 1,5 : 5 × 2 = 0,6 кг. Осталось 0,9 кг мёда, вместе с банкой 0,9 + 0,35 = 1,25 кг.",
     "difficulty": "hard",
     "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0001",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Чему равно 2/7 + 3/7?",
+    "options": [
+      "5/14",
+      "6/7",
+      "5/7",
+      "1/7"
+    ],
+    "answer": 2,
+    "explanation": "Знаменатель остаётся прежним: (2 + 3)/7 = 5/7.",
+    "difficulty": "easy",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0002",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Чему равно 2,96 − 1,03?",
+    "options": [
+      "1,93",
+      "1,03",
+      "1,83",
+      "3,99"
+    ],
+    "answer": 0,
+    "explanation": "Вычитаем по разрядам: 2,96 − 1,03 = 1,93.",
+    "difficulty": "easy",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0003",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Какое из чисел наибольшее?",
+    "options": [
+      "9,8",
+      "10,14",
+      "9,4",
+      "10,3"
+    ],
+    "answer": 3,
+    "explanation": "Сравним 10,30 и 10,14: первое больше. Числа 9,8 и 9,4 меньше 10.",
+    "difficulty": "easy",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0004",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Какая из дробей правильная?",
+    "options": [
+      "8/5",
+      "3/12",
+      "7/7",
+      "9/6"
+    ],
+    "answer": 1,
+    "explanation": "У правильной дроби числитель меньше знаменателя. Только у 3/12 выполнено 3 < 12.",
+    "difficulty": "easy",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0005",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Какая из дробей неправильная?",
+    "options": [
+      "6/4",
+      "5/9",
+      "2/8",
+      "1/3"
+    ],
+    "answer": 0,
+    "explanation": "У неправильной дроби числитель не меньше знаменателя. У 6/4 числитель 6 больше 4.",
+    "difficulty": "easy",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0006",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Какая из дробей меньше 0,5?",
+    "options": [
+      "15/19",
+      "20/9",
+      "2/7",
+      "11/8"
+    ],
+    "answer": 2,
+    "explanation": "Половина — это 1/2. Удвоенное число 2 меньше 7, поэтому 2/7 < 1/2. Остальные дроби больше половины.",
+    "difficulty": "easy",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0007",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Как записать 2 3/7 в виде неправильной дроби?",
+    "options": [
+      "5/7",
+      "17/7",
+      "14/7",
+      "23/7"
+    ],
+    "answer": 1,
+    "explanation": "Две целых — это 14/7. Прибавим 3/7: получим 17/7.",
+    "difficulty": "medium",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0008",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Выделите целую часть дроби 13/5.",
+    "options": [
+      "2 2/5",
+      "3 2/5",
+      "3 3/5",
+      "2 3/5"
+    ],
+    "answer": 3,
+    "explanation": "13 : 5 = 2 с остатком 3. Поэтому 13/5 = 2 3/5.",
+    "difficulty": "medium",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0009",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Из 12 карандашей 7 — синие. Какую часть всех карандашей составляют синие?",
+    "options": [
+      "5/12",
+      "7/5",
+      "7/12",
+      "12/7"
+    ],
+    "answer": 2,
+    "explanation": "Часть записываем в числителе, общее количество — в знаменателе: 7/12.",
+    "difficulty": "easy",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0010",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "В автобусе 60 пассажирских мест. Заняты 2/5 всех мест. Сколько мест свободно?",
+    "options": [
+      "36",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": 0,
+    "explanation": "Занято 60 : 5 × 2 = 24 места. Свободно 60 − 24 = 36 мест.",
+    "difficulty": "medium",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0011",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Велосипедист проехал 1/4 всего пути, затем ещё 1/3 всего пути. Осталось 20 км. Какова длина всего пути?",
+    "options": [
+      "40 км",
+      "60 км",
+      "72 км",
+      "48 км"
+    ],
+    "answer": 3,
+    "explanation": "Проехал 3/12 + 4/12 = 7/12 пути. Осталось 5/12, это 20 км. Весь путь: 20 : 5 × 12 = 48 км.",
+    "difficulty": "hard",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_5_school_0012",
+    "subject": "math",
+    "topic": "Обыкновенные и десятичные дроби",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Творог продают упаковками: 0,2 кг за 52 руб.; 0,25 кг за 62 руб.; 0,5 кг за 125 руб.; 0,2 кг за 85 руб. Какова наименьшая цена 1 кг?",
+    "options": [
+      "250 руб.",
+      "248 руб.",
+      "260 руб.",
+      "425 руб."
+    ],
+    "answer": 1,
+    "explanation": "Цены за 1 кг: 52 : 0,2 = 260; 62 : 0,25 = 248; 125 : 0,5 = 250; 85 : 0,2 = 425 руб. Минимум — 248 руб.",
+    "difficulty": "hard",
+    "curriculum_id": "math_5"
+  },
+  {
+    "id": "math_6_9",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Вычислите −7 + 12.",
+    "options": [
+      "−19",
+      "−5",
+      "5",
+      "19"
+    ],
+    "answer": 2,
+    "explanation": "Из 12 вычитаем 7: положительное слагаемое больше по модулю.",
+    "difficulty": "easy",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_6_10",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Вычислите (−4) × (−6).",
+    "options": [
+      "−24",
+      "24",
+      "−10",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "Произведение двух отрицательных чисел положительно: 4 × 6 = 24.",
+    "difficulty": "easy",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_6_11",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Решите пропорцию x/6 = 4/3.",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "x = 6 × 4 / 3 = 8.",
+    "difficulty": "medium",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_6_12",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Чему равен модуль числа −13?",
+    "options": [
+      "−13",
+      "0",
+      "13",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "Модуль — расстояние до нуля, поэтому |−13| = 13.",
+    "difficulty": "easy",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_6_13",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Температура была −3 °C и снизилась на 5 °C. Какой она стала?",
+    "options": [
+      "2 °C",
+      "−2 °C",
+      "8 °C",
+      "−8 °C"
+    ],
+    "answer": 3,
+    "explanation": "−3 − 5 = −8.",
+    "difficulty": "easy",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_6_14",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Найдите 15% от 200.",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "45"
+    ],
+    "answer": 2,
+    "explanation": "200 × 0,15 = 30.",
+    "difficulty": "easy",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_6_15",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Вычислите −18 : 3.",
+    "options": [
+      "−6",
+      "6",
+      "−15",
+      "−54"
+    ],
+    "answer": 0,
+    "explanation": "Отрицательное число, делённое на положительное, даёт отрицательное: −6.",
+    "difficulty": "easy",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_6_16",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Масштаб 1:1000. Какому расстоянию соответствует 2 см на плане?",
+    "options": [
+      "2 м",
+      "20 м",
+      "200 м",
+      "2000 м"
+    ],
+    "answer": 1,
+    "explanation": "2 × 1000 = 2000 см = 20 м.",
+    "difficulty": "medium",
+    "curriculum_id": "math_6"
+  },
+  {
+    "id": "math_7_17",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 3x + 7 = 22.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "3x = 22 − 7 = 15, значит x = 5.",
+    "difficulty": "medium",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_7_18",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 5x − 8 = 2x + 10.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "5x − 2x = 10 + 8, поэтому 3x = 18 и x = 6.",
+    "difficulty": "hard",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_7_19",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 2(x − 3) = 14.",
+    "options": [
+      "4",
+      "7",
+      "10",
+      "11"
+    ],
+    "answer": 2,
+    "explanation": "x − 3 = 7, следовательно x = 10.",
+    "difficulty": "medium",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_7_20",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "При каком x выражение 4x + 1 равно 13?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "4x = 12, x = 3.",
+    "difficulty": "easy",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_7_21",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение x/4 + 2 = 5.",
+    "options": [
+      "3",
+      "7",
+      "12",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "x/4 = 3, следовательно x = 12.",
+    "difficulty": "medium",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_7_22",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Чему равно y = 2x − 5 при x = 4?",
+    "options": [
+      "−3",
+      "3",
+      "8",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "Подставляем x = 4: 2 × 4 − 5 = 3.",
+    "difficulty": "easy",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_7_23",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Упростите 3a + 2a − 7.",
+    "options": [
+      "5a − 7",
+      "6a − 7",
+      "5a + 7",
+      "−2a"
+    ],
+    "answer": 0,
+    "explanation": "Складываем коэффициенты подобных слагаемых: 3 + 2 = 5.",
+    "difficulty": "easy",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_7_24",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 7 − x = 12.",
+    "options": [
+      "−5",
+      "5",
+      "19",
+      "−19"
+    ],
+    "answer": 0,
+    "explanation": "−x = 5, поэтому x = −5.",
+    "difficulty": "medium",
+    "curriculum_id": "math_7"
+  },
+  {
+    "id": "math_8_25",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите корни x² − 9 = 0.",
+    "options": [
+      "Только 3",
+      "−3 и 3",
+      "0 и 9",
+      "−9 и 9"
+    ],
+    "answer": 1,
+    "explanation": "x² = 9, поэтому x = ±3.",
+    "difficulty": "medium",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_8_26",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Дискриминант уравнения x² − 5x + 6 = 0 равен…",
+    "options": [
+      "1",
+      "5",
+      "25",
+      "49"
+    ],
+    "answer": 0,
+    "explanation": "D = b² − 4ac = 25 − 24 = 1.",
+    "difficulty": "medium",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_8_27",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите корни x² − 5x + 6 = 0.",
+    "options": [
+      "1 и 6",
+      "−2 и −3",
+      "2 и 3",
+      "0 и 5"
+    ],
+    "answer": 2,
+    "explanation": "(x − 2)(x − 3) = 0, значит x = 2 или x = 3.",
+    "difficulty": "hard",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_8_28",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Сколько действительных корней у x² + 4 = 0?",
+    "options": [
+      "Ни одного",
+      "Один",
+      "Два",
+      "Бесконечно много"
+    ],
+    "answer": 0,
+    "explanation": "Квадрат действительного числа неотрицателен и не может равняться −4.",
+    "difficulty": "easy",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_8_29",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Чему равно √144?",
+    "options": [
+      "−12",
+      "12",
+      "72",
+      "14"
+    ],
+    "answer": 1,
+    "explanation": "Арифметический квадратный корень неотрицателен: 12² = 144.",
+    "difficulty": "easy",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_8_30",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Разложите x² − 16 на множители.",
+    "options": [
+      "(x − 4)²",
+      "(x − 8)(x + 2)",
+      "(x − 4)(x + 4)",
+      "x(x − 16)"
+    ],
+    "answer": 2,
+    "explanation": "Применяем разность квадратов: a² − b² = (a − b)(a + b).",
+    "difficulty": "medium",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_8_31",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Сумма корней x² − 7x + 10 = 0 равна…",
+    "options": [
+      "−7",
+      "7",
+      "10",
+      "−10"
+    ],
+    "answer": 1,
+    "explanation": "По теореме Виета сумма корней приведённого уравнения равна −b = 7.",
+    "difficulty": "medium",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_8_32",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите корни x² − 4x = 0.",
+    "options": [
+      "0 и 4",
+      "−4 и 4",
+      "Только 4",
+      "0 и −4"
+    ],
+    "answer": 0,
+    "explanation": "Выносим x: x(x − 4) = 0.",
+    "difficulty": "medium",
+    "curriculum_id": "math_8"
+  },
+  {
+    "id": "math_9_33",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В арифметической прогрессии a₁ = 3, d = 4. Найдите a₅.",
+    "options": [
+      "15",
+      "16",
+      "19",
+      "23"
+    ],
+    "answer": 2,
+    "explanation": "a₅ = a₁ + 4d = 3 + 16 = 19.",
+    "difficulty": "medium",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_9_34",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Найдите вершину параболы y = (x − 2)² + 3.",
+    "options": [
+      "(−2; 3)",
+      "(2; 3)",
+      "(3; 2)",
+      "(2; −3)"
+    ],
+    "answer": 1,
+    "explanation": "Форма y = (x − h)² + k задаёт вершину (h; k).",
+    "difficulty": "medium",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_9_35",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В геометрической прогрессии b₁ = 2, q = 3. Найдите b₄.",
+    "options": [
+      "18",
+      "24",
+      "54",
+      "81"
+    ],
+    "answer": 2,
+    "explanation": "b₄ = 2 × 3³ = 54.",
+    "difficulty": "medium",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_9_36",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Найдите нули функции y = x² − 4.",
+    "options": [
+      "Только 2",
+      "−2 и 2",
+      "0 и 4",
+      "−4 и 4"
+    ],
+    "answer": 1,
+    "explanation": "Нули — значения x, при которых y = 0: x² = 4.",
+    "difficulty": "easy",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_9_37",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Чему равна сумма первых пяти членов 2, 4, 6, …?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "32"
+    ],
+    "answer": 2,
+    "explanation": "2 + 4 + 6 + 8 + 10 = 30.",
+    "difficulty": "easy",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_9_38",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Куда направлены ветви параболы y = −2x² + 1?",
+    "options": [
+      "Вверх",
+      "Вниз",
+      "Вправо",
+      "Влево"
+    ],
+    "answer": 1,
+    "explanation": "Коэффициент при x² отрицательный, поэтому ветви направлены вниз.",
+    "difficulty": "medium",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_9_39",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Какова разность арифметической прогрессии 11, 8, 5, …?",
+    "options": [
+      "3",
+      "−3",
+      "5",
+      "−5"
+    ],
+    "answer": 1,
+    "explanation": "d = 8 − 11 = −3.",
+    "difficulty": "easy",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_9_40",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Какова область определения функции y = 1/(x − 3)?",
+    "options": [
+      "Все числа",
+      "x ≠ 0",
+      "x ≠ 3",
+      "x > 3"
+    ],
+    "answer": 2,
+    "explanation": "Знаменатель не должен быть нулём: x − 3 ≠ 0.",
+    "difficulty": "medium",
+    "curriculum_id": "math_9"
+  },
+  {
+    "id": "math_10_41",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен sin 30°?",
+    "options": [
+      "0",
+      "1/2",
+      "√3/2",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Табличное значение sin 30° = 1/2.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_10_42",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен cos 60°?",
+    "options": [
+      "0",
+      "1/2",
+      "√2/2",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "Табличное значение cos 60° = 1/2.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_10_43",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равно sin²α + cos²α?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Зависит от α"
+    ],
+    "answer": 1,
+    "explanation": "Это основное тригонометрическое тождество.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_10_44",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен cos 0?",
+    "options": [
+      "0",
+      "−1",
+      "1",
+      "1/2"
+    ],
+    "answer": 2,
+    "explanation": "На единичной окружности углу 0 соответствует точка (1; 0); косинус равен её абсциссе.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_10_45",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен угол π радиан в градусах?",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": 1,
+    "explanation": "Полный оборот 2π радиан равен 360°, значит π = 180°.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_10_46",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен sin(−30°)?",
+    "options": [
+      "1/2",
+      "−1/2",
+      "√3/2",
+      "−1"
+    ],
+    "answer": 1,
+    "explanation": "Синус — нечётная функция: sin(−α) = −sin α.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_10_47",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен tg 45°?",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "√3"
+    ],
+    "answer": 2,
+    "explanation": "tg 45° = sin 45° / cos 45° = 1.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_10_48",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен угол π/2 радиан в градусах?",
+    "options": [
+      "45°",
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "answer": 1,
+    "explanation": "π радиан равны 180°, поэтому π/2 радиан равны 90°.",
+    "difficulty": "easy",
+    "curriculum_id": "math_10"
+  },
+  {
+    "id": "math_11_49",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Найдите производную f(x) = x³.",
+    "options": [
+      "x²",
+      "2x",
+      "3x²",
+      "3x³"
+    ],
+    "answer": 2,
+    "explanation": "По правилу степени (xⁿ)′ = nxⁿ⁻¹.",
+    "difficulty": "medium",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "math_11_50",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Чему равен log₂8?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "2³ = 8, значит log₂8 = 3.",
+    "difficulty": "easy",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "math_11_51",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Найдите производную f(x) = 5x + 7.",
+    "options": [
+      "5",
+      "7",
+      "5x",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "Производная 5x равна 5, производная константы равна 0.",
+    "difficulty": "easy",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "math_11_52",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Решите 2ˣ = 16.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "16 = 2⁴, поэтому x = 4.",
+    "difficulty": "medium",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "math_11_53",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Найдите точку минимума f(x) = x² − 6x + 10.",
+    "options": [
+      "−3",
+      "3",
+      "6",
+      "10"
+    ],
+    "answer": 1,
+    "explanation": "f′(x) = 2x − 6 = 0 при x = 3. Парабола направлена вверх.",
+    "difficulty": "hard",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "math_11_54",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Чему равен ln 1?",
+    "options": [
+      "−1",
+      "0",
+      "1",
+      "e"
+    ],
+    "answer": 1,
+    "explanation": "e⁰ = 1, поэтому ln 1 = 0.",
+    "difficulty": "easy",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "math_11_55",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Найдите производную sin x.",
+    "options": [
+      "cos x",
+      "−cos x",
+      "sin x",
+      "−sin x"
+    ],
+    "answer": 0,
+    "explanation": "Для аргумента в радианах (sin x)′ = cos x.",
+    "difficulty": "easy",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "math_11_56",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Решите log₃x = 2.",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "27"
+    ],
+    "answer": 2,
+    "explanation": "По определению логарифма x = 3² = 9.",
+    "difficulty": "medium",
+    "curriculum_id": "math_11"
+  },
+  {
+    "id": "russian_5_57",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "В каком слове после Ж пишется И?",
+    "options": [
+      "ж…раф",
+      "ж…лтый",
+      "ж…лудь",
+      "ж…рнов"
+    ],
+    "answer": 0,
+    "explanation": "ЖИ–ШИ пишем с И: жираф. В остальных словах нужна буква Ё.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_5_58",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Выберите верное написание.",
+    "options": [
+      "чуство",
+      "чувство",
+      "чювство",
+      "чуфство"
+    ],
+    "answer": 1,
+    "explanation": "В слове «чувство» есть непроизносимая согласная В. Написание нужно запомнить.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_5_59",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Выберите проверочное слово для безударной гласной в слове «леса».",
+    "options": [
+      "лесной",
+      "лесник",
+      "лес",
+      "лесовик"
+    ],
+    "answer": 2,
+    "explanation": "В слове «лес» гласная Е стоит под ударением.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_5_60",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "В каком слове нужен разделительный Ъ?",
+    "options": [
+      "в…юга",
+      "сем…я",
+      "под…езд",
+      "руч…и"
+    ],
+    "answer": 2,
+    "explanation": "После приставки на согласную перед Е пишется Ъ: подъезд.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_5_61",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Как пишется НЕ с глаголом «знал»?",
+    "options": [
+      "незнал",
+      "не-знал",
+      "не знал",
+      "ни знал"
+    ],
+    "answer": 2,
+    "explanation": "НЕ с глаголами обычно пишется раздельно: не знал.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_5_62",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Выберите верное написание.",
+    "options": [
+      "лестница",
+      "лесница",
+      "лестнитца",
+      "лестнеца"
+    ],
+    "answer": 0,
+    "explanation": "В слове «лестница» пишется непроизносимая согласная Т.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_5_63",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "В каком слове на конце нужен Ь?",
+    "options": [
+      "врач…",
+      "плащ…",
+      "ноч…",
+      "мяч…"
+    ],
+    "answer": 2,
+    "explanation": "После шипящих Ь пишется у существительных женского рода 3-го склонения: ночь.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_5_64",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Выберите верное написание.",
+    "options": [
+      "рассказ",
+      "разсказ",
+      "раскас",
+      "разказ"
+    ],
+    "answer": 0,
+    "explanation": "Приставка рас- перед глухим С: рас-сказ. На стыке пишутся две С.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_5"
+  },
+  {
+    "id": "russian_6_65",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Какое местоимение является личным?",
+    "options": [
+      "каждый",
+      "этот",
+      "мы",
+      "свой"
+    ],
+    "answer": 2,
+    "explanation": "Мы — личное местоимение первого лица множественного числа.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_6"
+  },
+  {
+    "id": "russian_6_66",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Укажите возвратное местоимение.",
+    "options": [
+      "себя",
+      "твой",
+      "никто",
+      "кто"
+    ],
+    "answer": 0,
+    "explanation": "Возвратное местоимение себя указывает на того, кто совершает действие.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_6"
+  },
+  {
+    "id": "russian_6_67",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Выберите правильное написание.",
+    "options": [
+      "кто то",
+      "кто-то",
+      "ктото",
+      "кто_то"
+    ],
+    "answer": 1,
+    "explanation": "Частица -то присоединяется к неопределённому местоимению через дефис.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_6"
+  },
+  {
+    "id": "russian_6_68",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Как правильно: «Мне ... не удалось поговорить»?",
+    "options": [
+      "нескем",
+      "не-ским",
+      "нискем",
+      "ни с кем"
+    ],
+    "answer": 3,
+    "explanation": "В отрицательном местоимении без ударения пишется ни; предлог разделяет его на три слова.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_6"
+  },
+  {
+    "id": "russian_6_69",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "В словосочетании «этот дом» местоимение этот относится к разряду…",
+    "options": [
+      "Личных",
+      "Указательных",
+      "Возвратных",
+      "Отрицательных"
+    ],
+    "answer": 1,
+    "explanation": "Этот указывает на предмет, поэтому является указательным местоимением.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_6"
+  },
+  {
+    "id": "russian_7_70",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Найдите причастие.",
+    "options": [
+      "читая",
+      "читающий",
+      "читать",
+      "читатель"
+    ],
+    "answer": 1,
+    "explanation": "Читающий обозначает признак по действию и отвечает на вопрос какой?",
+    "difficulty": "easy",
+    "curriculum_id": "russian_7"
+  },
+  {
+    "id": "russian_7_71",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Найдите деепричастие.",
+    "options": [
+      "прочитанный",
+      "прочитать",
+      "прочитав",
+      "чтение"
+    ],
+    "answer": 2,
+    "explanation": "Прочитав обозначает добавочное действие и отвечает на вопрос что сделав?",
+    "difficulty": "easy",
+    "curriculum_id": "russian_7"
+  },
+  {
+    "id": "russian_7_72",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Выберите правильную пунктуацию.",
+    "options": [
+      "Книга, прочитанная летом, понравилась мне.",
+      "Книга прочитанная летом понравилась мне.",
+      "Книга, прочитанная летом понравилась мне.",
+      "Книга прочитанная летом, понравилась мне."
+    ],
+    "answer": 0,
+    "explanation": "Причастный оборот после определяемого слова книга обособляется с двух сторон.",
+    "difficulty": "hard",
+    "curriculum_id": "russian_7"
+  },
+  {
+    "id": "russian_7_73",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Выберите правильное написание краткого причастия.",
+    "options": [
+      "Задача решенна.",
+      "Задача решина.",
+      "Задача решинна.",
+      "Задача решена."
+    ],
+    "answer": 3,
+    "explanation": "В кратком страдательном причастии решена пишется одна Н.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_7"
+  },
+  {
+    "id": "russian_7_74",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Выберите грамматически верное предложение.",
+    "options": [
+      "Читая книгу, у меня погас свет.",
+      "Читая книгу, я делал заметки.",
+      "Читая книгу, мне стало холодно.",
+      "Читая книгу, наступил вечер."
+    ],
+    "answer": 1,
+    "explanation": "Действия читая и делал относятся к одному действующему лицу — я.",
+    "difficulty": "hard",
+    "curriculum_id": "russian_7"
+  },
+  {
+    "id": "russian_8_75",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какова грамматическая основа: «Осенью птицы улетают на юг»?",
+    "options": [
+      "Осенью птицы",
+      "Птицы улетают",
+      "Улетают на юг",
+      "Осенью улетают"
+    ],
+    "answer": 1,
+    "explanation": "Птицы — подлежащее, улетают — сказуемое.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_8"
+  },
+  {
+    "id": "russian_8_76",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Определите тип односоставного предложения: «Люблю читать».",
+    "options": [
+      "Назывное",
+      "Безличное",
+      "Определённо-личное",
+      "Неопределённо-личное"
+    ],
+    "answer": 2,
+    "explanation": "Сказуемое в форме первого лица указывает на определённое лицо — я.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_8"
+  },
+  {
+    "id": "russian_8_77",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите предложение с составным глагольным сказуемым.",
+    "options": [
+      "Дети играют.",
+      "Он стал врачом.",
+      "Мы будем дома.",
+      "Я начал читать."
+    ],
+    "answer": 3,
+    "explanation": "Начал читать: вспомогательный глагол со значением начала и инфинитив.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_8"
+  },
+  {
+    "id": "russian_8_78",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какое слово является обращением: «Маша, принеси тетрадь»?",
+    "options": [
+      "Маша",
+      "Принеси",
+      "Тетрадь",
+      "Обращения нет"
+    ],
+    "answer": 0,
+    "explanation": "Маша называет адресата речи и отделяется запятой.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_8"
+  },
+  {
+    "id": "russian_8_79",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Выберите верную пунктуацию.",
+    "options": [
+      "К счастью дождь закончился.",
+      "К счастью, дождь закончился.",
+      "К, счастью дождь закончился.",
+      "К счастью дождь, закончился."
+    ],
+    "answer": 1,
+    "explanation": "К счастью — вводное сочетание, выражающее оценку говорящего.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_8"
+  },
+  {
+    "id": "russian_9_80",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Определите тип: «Солнце село, и стало прохладно».",
+    "options": [
+      "Простое",
+      "Сложносочинённое",
+      "Сложноподчинённое",
+      "Бессоюзное сложное"
+    ],
+    "answer": 1,
+    "explanation": "Две предикативные части соединены сочинительным союзом и.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_9"
+  },
+  {
+    "id": "russian_9_81",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Определите тип: «Я знаю, что ты придёшь».",
+    "options": [
+      "Простое",
+      "Сложносочинённое",
+      "Сложноподчинённое",
+      "Бессоюзное сложное"
+    ],
+    "answer": 2,
+    "explanation": "Придаточная часть что ты придёшь зависит от главной.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_9"
+  },
+  {
+    "id": "russian_9_82",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Определите вид придаточного: «Когда стемнело, мы вернулись домой».",
+    "options": [
+      "Времени",
+      "Места",
+      "Причины",
+      "Цели"
+    ],
+    "answer": 0,
+    "explanation": "Придаточная часть отвечает на вопрос когда?",
+    "difficulty": "medium",
+    "curriculum_id": "russian_9"
+  },
+  {
+    "id": "russian_9_83",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Какой знак нужен: «Я остался дома ... началась метель»?",
+    "options": [
+      "Запятая перед и",
+      "Точка после Я",
+      "Двоеточие",
+      "Кавычки"
+    ],
+    "answer": 2,
+    "explanation": "Вторая часть бессоюзного предложения объясняет причину; можно вставить потому что.",
+    "difficulty": "hard",
+    "curriculum_id": "russian_9"
+  },
+  {
+    "id": "russian_9_84",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Сколько грамматических основ: «Ветер стих, небо прояснилось, и выглянуло солнце»?",
+    "options": [
+      "Одна",
+      "Две",
+      "Четыре",
+      "Три"
+    ],
+    "answer": 3,
+    "explanation": "Основы: ветер стих; небо прояснилось; солнце выглянуло.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_9"
+  },
+  {
+    "id": "russian_10_85",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Выберите нормативное ударение (ударная гласная — заглавная).",
+    "options": [
+      "звОнит",
+      "звонИт",
+      "Оба варианта",
+      "Ударения нет"
+    ],
+    "answer": 1,
+    "explanation": "Нормативное ударение в форме звонит падает на И.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_10"
+  },
+  {
+    "id": "russian_10_86",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Выберите правильное словосочетание.",
+    "options": [
+      "Одеть пальто",
+      "Надеть ребёнка",
+      "Надеть пальто",
+      "Одеть на себя шапку"
+    ],
+    "answer": 2,
+    "explanation": "Надеть — что-то на себя, одеть — кого-то.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_10"
+  },
+  {
+    "id": "russian_10_87",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Как правильно продолжить: «На полке нет пяти ...»?",
+    "options": [
+      "килограммов",
+      "килограммами",
+      "килограммы",
+      "килограмму"
+    ],
+    "answer": 0,
+    "explanation": "После пяти здесь нужна форма родительного падежа множественного числа: килограммов.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_10"
+  },
+  {
+    "id": "russian_10_88",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Какое сочетание содержит речевую избыточность?",
+    "options": [
+      "Главный вход",
+      "Памятный подарок",
+      "Новая книга",
+      "Свободная вакансия"
+    ],
+    "answer": 3,
+    "explanation": "Вакансия уже означает незанятую должность; слово свободная избыточно.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_10"
+  },
+  {
+    "id": "russian_10_89",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Выберите нормативную форму.",
+    "options": [
+      "Более красивее",
+      "Самый красивейший",
+      "Более красивый",
+      "Красивше"
+    ],
+    "answer": 2,
+    "explanation": "Нельзя смешивать простую и составную формы сравнительной степени.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_10"
+  },
+  {
+    "id": "russian_11_90",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Выберите верное оформление прямой речи.",
+    "options": [
+      "Он сказал: «Я вернусь».",
+      "Он сказал «Я вернусь».",
+      "Он сказал, «Я вернусь».",
+      "Он сказал; «Я вернусь»."
+    ],
+    "answer": 0,
+    "explanation": "После слов автора перед прямой речью ставится двоеточие; прямая речь заключается в кавычки.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_11"
+  },
+  {
+    "id": "russian_11_91",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Какой стиль характерен для заявления о приёме на работу?",
+    "options": [
+      "Разговорный",
+      "Художественный",
+      "Официально-деловой",
+      "Публицистический"
+    ],
+    "answer": 2,
+    "explanation": "Заявление — документ, для которого характерны точность и стандартные формулировки.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_11"
+  },
+  {
+    "id": "russian_11_92",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Какой стиль характерен для статьи с доказательством математической теоремы?",
+    "options": [
+      "Разговорный",
+      "Научный",
+      "Официально-деловой",
+      "Художественный"
+    ],
+    "answer": 1,
+    "explanation": "Доказательство использует термины, логические связи и точные формулировки.",
+    "difficulty": "easy",
+    "curriculum_id": "russian_11"
+  },
+  {
+    "id": "russian_11_93",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Нужна ли запятая: «Утром выглянуло солнце и запели птицы» (утром относится к обеим частям)?",
+    "options": [
+      "После утром",
+      "Перед и",
+      "После солнце и",
+      "Запятая не нужна"
+    ],
+    "answer": 3,
+    "explanation": "При общем второстепенном члене утром перед одиночным и между частями запятая не ставится.",
+    "difficulty": "hard",
+    "curriculum_id": "russian_11"
+  },
+  {
+    "id": "russian_11_94",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Выберите верную пунктуацию.",
+    "options": [
+      "И лес и поле и река были видны.",
+      "И лес, и поле, и река были видны.",
+      "И, лес и поле и река были видны.",
+      "И лес и поле, и река были видны."
+    ],
+    "answer": 1,
+    "explanation": "Однородные члены при повторяющемся союзе и разделяются запятыми.",
+    "difficulty": "medium",
+    "curriculum_id": "russian_11"
+  },
+  {
+    "id": "informatics_7_95",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Сколько бит в одном байте?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 2,
+    "explanation": "Один байт содержит 8 бит.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_7"
+  },
+  {
+    "id": "informatics_7_96",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Какое устройство вводит текст в компьютер?",
+    "options": [
+      "Монитор",
+      "Принтер",
+      "Колонки",
+      "Клавиатура"
+    ],
+    "answer": 3,
+    "explanation": "Клавиатура — устройство ввода текста.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_7"
+  },
+  {
+    "id": "informatics_7_97",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Текст содержит 20 символов по 1 байту каждый. Каков его объём?",
+    "options": [
+      "20 байт",
+      "20 бит",
+      "160 байт",
+      "2 байта"
+    ],
+    "answer": 0,
+    "explanation": "20 × 1 = 20 байт, или 160 бит.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_7"
+  },
+  {
+    "id": "informatics_7_98",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Из каких элементов состоит растровое изображение?",
+    "options": [
+      "Абзацев",
+      "Пикселей",
+      "Формул",
+      "Каталогов"
+    ],
+    "answer": 1,
+    "explanation": "Растровое изображение образует сетка пикселей.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_7"
+  },
+  {
+    "id": "informatics_7_99",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Какой процесс происходит при сохранении документа на диск?",
+    "options": [
+      "Передача адресату",
+      "Удаление",
+      "Хранение информации",
+      "Печать"
+    ],
+    "answer": 2,
+    "explanation": "Сохранение записывает информацию на носитель для хранения.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_7"
+  },
+  {
+    "id": "informatics_8_100",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Чему равно двоичное число 101 в десятичной системе?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "1 × 4 + 0 × 2 + 1 = 5.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_8"
+  },
+  {
+    "id": "informatics_8_101",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какова двоичная запись десятичного числа 6?",
+    "options": [
+      "101",
+      "110",
+      "111",
+      "100"
+    ],
+    "answer": 1,
+    "explanation": "6 = 4 + 2, значит двоичная запись — 110.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_8"
+  },
+  {
+    "id": "informatics_8_102",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Чему равно логическое «И», если A истинно, B ложно?",
+    "options": [
+      "Истина",
+      "Число 2",
+      "Не определено",
+      "Ложь"
+    ],
+    "answer": 3,
+    "explanation": "Конъюнкция истинна только при истинности обоих операндов.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_8"
+  },
+  {
+    "id": "informatics_8_103",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "К 1 три раза прибавили 2. Какой результат?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "Три повторения дают 1 + 2 + 2 + 2 = 7.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_8"
+  },
+  {
+    "id": "informatics_8_104",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какая алгоритмическая конструкция выбирает действие по условию?",
+    "options": [
+      "Следование",
+      "Ветвление",
+      "Присваивание",
+      "Ввод"
+    ],
+    "answer": 1,
+    "explanation": "Ветвление выполняет одну из ветвей в зависимости от условия.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_8"
+  },
+  {
+    "id": "informatics_9_105",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Что является информационной моделью школьного здания?",
+    "options": [
+      "Само здание",
+      "Его кирпич",
+      "План этажей",
+      "Дверная ручка"
+    ],
+    "answer": 2,
+    "explanation": "План описывает существенные свойства здания с помощью условных обозначений.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_9"
+  },
+  {
+    "id": "informatics_9_106",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "На графе дорог города обычно изображаются…",
+    "options": [
+      "Вершинами",
+      "Длинами",
+      "Только стрелками",
+      "Подписями рёбер без вершин"
+    ],
+    "answer": 0,
+    "explanation": "Вершины моделируют города, а рёбра — дороги между ними.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_9"
+  },
+  {
+    "id": "informatics_9_107",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Есть дороги A–B длиной 3, B–C длиной 4 и A–C длиной 10. Кратчайший путь A–C равен…",
+    "options": [
+      "3",
+      "4",
+      "10",
+      "7"
+    ],
+    "answer": 3,
+    "explanation": "Через B расстояние 3 + 4 = 7, что меньше прямого пути 10.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_9"
+  },
+  {
+    "id": "informatics_9_108",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Как называется связный неориентированный граф без циклов?",
+    "options": [
+      "Цикл",
+      "Дерево",
+      "Таблица",
+      "Массив"
+    ],
+    "answer": 1,
+    "explanation": "Дерево — связный неориентированный граф, не содержащий циклов.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_9"
+  },
+  {
+    "id": "informatics_9_109",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В графе есть только рёбра A–B, A–C, B–C. Какова степень вершины A?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "answer": 2,
+    "explanation": "С вершиной A соединены два ребра: A–B и A–C.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_9"
+  },
+  {
+    "id": "informatics_10_110",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Алфавит содержит 16 символов. Сколько бит нужно на символ при равномерном двоичном кодировании?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "2⁴ = 16: достаточно четырёх бит.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_10"
+  },
+  {
+    "id": "informatics_10_111",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Сколько различных кодов длиной 3 бита существует?",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "Для каждой из трёх позиций два варианта: 2³ = 8.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_10"
+  },
+  {
+    "id": "informatics_10_112",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Какой набор кодов удовлетворяет условию Фано (ни один код не является началом другого)?",
+    "options": [
+      "0, 01, 11",
+      "1, 10, 00",
+      "00, 001, 1",
+      "0, 10, 11"
+    ],
+    "answer": 3,
+    "explanation": "В наборе 0, 10, 11 никакое кодовое слово не служит началом другого.",
+    "difficulty": "hard",
+    "curriculum_id": "informatics_10"
+  },
+  {
+    "id": "informatics_10_113",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равно НЕ (A И B), если A и B истинны?",
+    "options": [
+      "Ложь",
+      "Истина",
+      "A",
+      "Не определено"
+    ],
+    "answer": 0,
+    "explanation": "A И B истинно, его отрицание ложно.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_10"
+  },
+  {
+    "id": "informatics_10_114",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Текст содержит 100 символов алфавита из 32 знаков. Каков объём равномерного кода без служебных данных?",
+    "options": [
+      "100 бит",
+      "500 бит",
+      "3200 бит",
+      "32 бита"
+    ],
+    "answer": 1,
+    "explanation": "На символ нужно 5 бит, поскольку 2⁵ = 32; всего 100 × 5 = 500 бит.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_10"
+  },
+  {
+    "id": "informatics_11_115",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Для чего нужна система DNS?",
+    "options": [
+      "Для печати",
+      "Для разрешения доменных имён в IP-адреса",
+      "Для охлаждения",
+      "Для сжатия фото"
+    ],
+    "answer": 1,
+    "explanation": "DNS позволяет получить IP-адрес по доменному имени.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_11"
+  },
+  {
+    "id": "informatics_11_116",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Какова основная функция веб-браузера?",
+    "options": [
+      "Создание электрического сигнала",
+      "Замена операционной системы",
+      "Просмотр веб-страниц",
+      "Физическое хранение проводов"
+    ],
+    "answer": 2,
+    "explanation": "Браузер запрашивает и отображает веб-страницы.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_11"
+  },
+  {
+    "id": "informatics_11_117",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Что помогает восстановить файлы после поломки диска?",
+    "options": [
+      "Резервная копия на другом носителе",
+      "Ярлык на том же диске",
+      "Переименование папки",
+      "Изменение обоев"
+    ],
+    "answer": 0,
+    "explanation": "Независимая резервная копия сохраняет данные при отказе основного носителя.",
+    "difficulty": "easy",
+    "curriculum_id": "informatics_11"
+  },
+  {
+    "id": "informatics_11_118",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Чем HTTPS отличается от обычного HTTP?",
+    "options": [
+      "Не использует сеть",
+      "Работает только с изображениями",
+      "Запрещает текст",
+      "Защищает обмен с помощью TLS"
+    ],
+    "answer": 3,
+    "explanation": "HTTPS использует TLS для защиты соединения; это не гарантия добросовестности самого сайта.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_11"
+  },
+  {
+    "id": "informatics_11_119",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Какой признак наиболее характерен для фишинга?",
+    "options": [
+      "Плановое резервирование",
+      "Проверка обновлений",
+      "Поддельная страница, запрашивающая пароль",
+      "Локальное редактирование текста"
+    ],
+    "answer": 2,
+    "explanation": "Фишинг использует обман, например поддельную страницу входа, для кражи учётных данных.",
+    "difficulty": "medium",
+    "curriculum_id": "informatics_11"
+  },
+  {
+    "id": "math_6_pilot_001",
+    "curriculum_id": "math_6",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Вычислите −8 + 3.",
+    "options": [
+      "-5",
+      "-4",
+      "-6",
+      "-2"
+    ],
+    "answer": 0,
+    "explanation": "Отрицательное слагаемое больше по модулю: −(8 − 3) = -5.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_6_pilot_002",
+    "curriculum_id": "math_6",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Вычислите −12 + 5.",
+    "options": [
+      "-6",
+      "-8",
+      "-4",
+      "-7"
+    ],
+    "answer": 3,
+    "explanation": "Отрицательное слагаемое больше по модулю: −(12 − 5) = -7.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_6_pilot_003",
+    "curriculum_id": "math_6",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Вычислите −17 + 9.",
+    "options": [
+      "-9",
+      "-5",
+      "-8",
+      "-7"
+    ],
+    "answer": 2,
+    "explanation": "Отрицательное слагаемое больше по модулю: −(17 − 9) = -8.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_6_pilot_004",
+    "curriculum_id": "math_6",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Решите пропорцию x/8 = 3/2.",
+    "options": [
+      "15",
+      "12",
+      "13",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "x = 8 × 3 : 2 = 12.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_6_pilot_005",
+    "curriculum_id": "math_6",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Решите пропорцию x/6 = 5/2.",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "x = 6 × 5 : 2 = 15.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_6_pilot_006",
+    "curriculum_id": "math_6",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "На карте масштаба 1:20000 расстояние равно 3 см. Сколько метров на местности?",
+    "options": [
+      "601",
+      "599",
+      "603",
+      "600"
+    ],
+    "answer": 3,
+    "explanation": "3 × 20000 = 60000 см = 600 м.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_6_pilot_007",
+    "curriculum_id": "math_6",
+    "subject": "math",
+    "topic": "Отрицательные числа и пропорции",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Утром было −8 °C. К полудню потеплело на 11 °C, а вечером похолодало на 6 °C. Сколько градусов стало?",
+    "options": [
+      "-4",
+      "0",
+      "-3",
+      "-2"
+    ],
+    "answer": 2,
+    "explanation": "−8 + 11 − 6 = 3 − 6 = −3 °C.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "math_7_pilot_001",
+    "curriculum_id": "math_7",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 4x + 9 = 33.",
+    "options": [
+      "9",
+      "6",
+      "7",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "4x = 33 − 9 = 24; x = 6.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_7_pilot_002",
+    "curriculum_id": "math_7",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 6x + 5 = 29.",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "6x = 29 − 5 = 24; x = 4.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_7_pilot_003",
+    "curriculum_id": "math_7",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 3x + 11 = 32.",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "7"
+    ],
+    "answer": 3,
+    "explanation": "3x = 32 − 11 = 21; x = 7.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_7_pilot_004",
+    "curriculum_id": "math_7",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 3(x − 2) = 18.",
+    "options": [
+      "7",
+      "11",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "x − 2 = 6; x = 8.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_7_pilot_005",
+    "curriculum_id": "math_7",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 4(x − 5) = 16.",
+    "options": [
+      "12",
+      "9",
+      "10",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "x − 5 = 4; x = 9.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_7_pilot_006",
+    "curriculum_id": "math_7",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "В двух коробках 36 карандашей. В первой на 8 больше, чем во второй. Сколько карандашей во второй коробке?",
+    "options": [
+      "14",
+      "15",
+      "13",
+      "17"
+    ],
+    "answer": 0,
+    "explanation": "Пусть во второй x карандашей. Тогда x + (x + 8) = 36; 2x = 28; x = 14.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "math_7_pilot_007",
+    "curriculum_id": "math_7",
+    "subject": "math",
+    "topic": "Линейные уравнения",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Решите уравнение 5(x − 2) = 3x + 8.",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "5x − 10 = 3x + 8; 2x = 18; x = 9.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "math_8_pilot_001",
+    "curriculum_id": "math_8",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите дискриминант уравнения x² − 7x + 12 = 0.",
+    "options": [
+      "0",
+      "4",
+      "1",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "D = (−7)² − 4 × 12 = 1.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_8_pilot_002",
+    "curriculum_id": "math_8",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите дискриминант уравнения x² − 9x + 20 = 0.",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "D = (−9)² − 4 × 20 = 1.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_8_pilot_003",
+    "curriculum_id": "math_8",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите дискриминант уравнения x² − 8x + 15 = 0.",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "D = (−8)² − 4 × 15 = 4.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_8_pilot_004",
+    "curriculum_id": "math_8",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какие корни у уравнения x² − 8x + 15 = 0?",
+    "options": [
+      "1 и 15",
+      "3 и 5",
+      "−3 и −5",
+      "2 и 6"
+    ],
+    "answer": 1,
+    "explanation": "(x − 3)(x − 5) = 0, откуда x = 3 или x = 5.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_8_pilot_005",
+    "curriculum_id": "math_8",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Сколько действительных корней у уравнения x² − 6x + 9 = 0?",
+    "options": [
+      "Ни одного",
+      "Два различных",
+      "Один",
+      "Бесконечно много"
+    ],
+    "answer": 2,
+    "explanation": "(x − 3)² = 0, поэтому единственный корень — 3.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_8_pilot_006",
+    "curriculum_id": "math_8",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Произведение корней уравнения x² − 9x + 14 = 0 равно…",
+    "options": [
+      "17",
+      "14",
+      "15",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "По теореме Виета произведение корней приведённого квадратного уравнения равно свободному члену.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_8_pilot_007",
+    "curriculum_id": "math_8",
+    "subject": "math",
+    "topic": "Квадратные уравнения",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Прямоугольник имеет площадь 24 см², его длина на 2 см больше ширины. Найдите ширину.",
+    "options": [
+      "3 см",
+      "4 см",
+      "6 см",
+      "8 см"
+    ],
+    "answer": 1,
+    "explanation": "x(x + 2) = 24; x² + 2x − 24 = 0. Корни 4 и −6; длина положительна, поэтому x = 4 см.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "math_9_pilot_001",
+    "curriculum_id": "math_9",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В арифметической прогрессии a₁ = 5, d = 3. Найдите a6.",
+    "options": [
+      "21",
+      "19",
+      "23",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "a6 = 5 + (6 − 1) × (3) = 20.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_9_pilot_002",
+    "curriculum_id": "math_9",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В арифметической прогрессии a₁ = 12, d = -2. Найдите a5.",
+    "options": [
+      "3",
+      "7",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "explanation": "a5 = 12 + (5 − 1) × (-2) = 4.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_9_pilot_003",
+    "curriculum_id": "math_9",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В арифметической прогрессии a₁ = 1, d = 5. Найдите a7.",
+    "options": [
+      "34",
+      "31",
+      "32",
+      "30"
+    ],
+    "answer": 1,
+    "explanation": "a7 = 1 + (7 − 1) × (5) = 31.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_9_pilot_004",
+    "curriculum_id": "math_9",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В геометрической прогрессии b₁ = 3, q = 2. Найдите b4.",
+    "options": [
+      "24",
+      "25",
+      "23",
+      "27"
+    ],
+    "answer": 0,
+    "explanation": "b4 = 3 × 2^3 = 24.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_9_pilot_005",
+    "curriculum_id": "math_9",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В геометрической прогрессии b₁ = 5, q = 2. Найдите b3.",
+    "options": [
+      "21",
+      "19",
+      "23",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "b3 = 5 × 2^2 = 20.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_9_pilot_006",
+    "curriculum_id": "math_9",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В каких точках график y = x² − 9 пересекает ось Ox?",
+    "options": [
+      "(0; −9)",
+      "(−9; 0) и (9; 0)",
+      "(−3; 0) и (3; 0)",
+      "Не пересекает"
+    ],
+    "answer": 2,
+    "explanation": "На оси Ox y = 0. Из x² = 9 получаем x = −3 и x = 3.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_9_pilot_007",
+    "curriculum_id": "math_9",
+    "subject": "math",
+    "topic": "Функции и прогрессии",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Найдите сумму первых десяти членов арифметической прогрессии 3, 7, 11, …",
+    "options": [
+      "213",
+      "210",
+      "211",
+      "209"
+    ],
+    "answer": 1,
+    "explanation": "a₁₀ = 3 + 9 × 4 = 39. S₁₀ = (3 + 39) × 10 : 2 = 210.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "math_10_pilot_001",
+    "curriculum_id": "math_10",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен sin 90°?",
+    "options": [
+      "0",
+      "1",
+      "−1",
+      "1/2"
+    ],
+    "answer": 1,
+    "explanation": "На единичной окружности ордината точки угла 90° равна 1.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_10_pilot_002",
+    "curriculum_id": "math_10",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен cos 180°?",
+    "options": [
+      "1",
+      "0",
+      "−1",
+      "1/2"
+    ],
+    "answer": 2,
+    "explanation": "Углу 180° соответствует точка (−1; 0); её абсцисса равна −1.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_10_pilot_003",
+    "curriculum_id": "math_10",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен tg 0°?",
+    "options": [
+      "0",
+      "1",
+      "−1",
+      "Не определён"
+    ],
+    "answer": 0,
+    "explanation": "tg 0° = sin 0° / cos 0° = 0 / 1 = 0.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_10_pilot_004",
+    "curriculum_id": "math_10",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен cos(−60°)?",
+    "options": [
+      "−1/2",
+      "√3/2",
+      "0",
+      "1/2"
+    ],
+    "answer": 3,
+    "explanation": "Косинус — чётная функция: cos(−60°) = cos 60° = 1/2.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_10_pilot_005",
+    "curriculum_id": "math_10",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Какой угол равен 3π/2 радиан?",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": 2,
+    "explanation": "3π/2 радиан = 3 × 180° : 2 = 270°.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_10_pilot_006",
+    "curriculum_id": "math_10",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равен sin 150°?",
+    "options": [
+      "−1/2",
+      "1/2",
+      "√3/2",
+      "−1"
+    ],
+    "answer": 1,
+    "explanation": "sin(180° − 30°) = sin 30° = 1/2.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_10_pilot_007",
+    "curriculum_id": "math_10",
+    "subject": "math",
+    "topic": "Тригонометрия",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Если sin α = 3/5 и α — острый угол, то cos α равен…",
+    "options": [
+      "3/5",
+      "−4/5",
+      "4/5",
+      "2/5"
+    ],
+    "answer": 2,
+    "explanation": "cos²α = 1 − 9/25 = 16/25. Для острого угла косинус положителен: 4/5.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_11_pilot_001",
+    "curriculum_id": "math_11",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Чему равен log_2(32)?",
+    "options": [
+      "8",
+      "5",
+      "6",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "2^5 = 32, поэтому логарифм равен 5.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_11_pilot_002",
+    "curriculum_id": "math_11",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Чему равен log_3(27)?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "3^3 = 27, поэтому логарифм равен 3.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_11_pilot_003",
+    "curriculum_id": "math_11",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Чему равен log_5(25)?",
+    "options": [
+      "3",
+      "1",
+      "5",
+      "2"
+    ],
+    "answer": 3,
+    "explanation": "5^2 = 25, поэтому логарифм равен 2.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "math_11_pilot_004",
+    "curriculum_id": "math_11",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Найдите производную f(x) = 3x² − 4x + 1.",
+    "options": [
+      "3x − 4",
+      "6x − 4",
+      "6x + 1",
+      "3x² − 4"
+    ],
+    "answer": 1,
+    "explanation": "Производные слагаемых: 6x, −4 и 0. В сумме 6x − 4.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_11_pilot_005",
+    "curriculum_id": "math_11",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Для f(x) = x² + 2x найдите f′(3).",
+    "options": [
+      "11",
+      "8",
+      "9",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "f′(x) = 2x + 2; f′(3) = 6 + 2 = 8.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_11_pilot_006",
+    "curriculum_id": "math_11",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Укажите область определения функции y = log₂(x − 4).",
+    "options": [
+      "x ≥ 4",
+      "x ≠ 4",
+      "x < 4",
+      "x > 4"
+    ],
+    "answer": 3,
+    "explanation": "Аргумент логарифма должен быть положителен: x − 4 > 0.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "math_11_pilot_007",
+    "curriculum_id": "math_11",
+    "subject": "math",
+    "topic": "Производные и логарифмы",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Найдите точку минимума функции f(x) = x² − 8x + 19.",
+    "options": [
+      "5",
+      "3",
+      "7",
+      "4"
+    ],
+    "answer": 3,
+    "explanation": "f′(x) = 2x − 8. Производная меняет знак с минуса на плюс при x = 4; это точка минимума.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "russian_5_pilot_001",
+    "curriculum_id": "russian_5",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "В каком слове пропущена буква А?",
+    "options": [
+      "ч…ща",
+      "ч…до",
+      "ч…тать",
+      "ч…рный"
+    ],
+    "answer": 0,
+    "explanation": "В сочетании ЧА пишется А: чаща.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_5_pilot_002",
+    "curriculum_id": "russian_5",
+    "subject": "russian",
+    "topic": "Орфография: повторение",
+    "grade_min": 5,
+    "grade_max": 5,
+    "text": "Как правильно написать «с…есть»?",
+    "options": [
+      "сьесть",
+      "сесть (в значении принять пищу)",
+      "съесть",
+      "съэсть"
+    ],
+    "answer": 2,
+    "explanation": "После приставки с- перед Е нужен разделительный Ъ: съесть.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_6_pilot_001",
+    "curriculum_id": "russian_6",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Какое местоимение является притяжательным?",
+    "options": [
+      "кто",
+      "мой",
+      "никто",
+      "мы"
+    ],
+    "answer": 1,
+    "explanation": "Мой указывает на принадлежность предмета.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_6_pilot_002",
+    "curriculum_id": "russian_6",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Какое местоимение является отрицательным?",
+    "options": [
+      "весь",
+      "этот",
+      "некто",
+      "никто"
+    ],
+    "answer": 3,
+    "explanation": "Никто указывает на отсутствие лица.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_6_pilot_003",
+    "curriculum_id": "russian_6",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Как правильно написать неопределённое местоимение?",
+    "options": [
+      "кое-кто",
+      "кое кто",
+      "коекто",
+      "койкто"
+    ],
+    "answer": 0,
+    "explanation": "Кое- с местоимениями без предлога пишется через дефис.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_6_pilot_004",
+    "curriculum_id": "russian_6",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Выберите правильную форму: «Я подошёл к ...».",
+    "options": [
+      "он",
+      "его",
+      "нему",
+      "им"
+    ],
+    "answer": 2,
+    "explanation": "После предлога к личное местоимение он имеет форму дательного падежа нему.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_6_pilot_005",
+    "curriculum_id": "russian_6",
+    "subject": "russian",
+    "topic": "Местоимения",
+    "grade_min": 6,
+    "grade_max": 6,
+    "text": "Как правильно: «... не было дома»?",
+    "options": [
+      "Ни кого",
+      "Никого",
+      "Не кого",
+      "Ни-кого"
+    ],
+    "answer": 1,
+    "explanation": "Без ударения в отрицательном местоимении пишется ни; без предлога — слитно.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_7_pilot_001",
+    "curriculum_id": "russian_7",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Укажите страдательное причастие.",
+    "options": [
+      "бегущий",
+      "улыбаясь",
+      "написанный",
+      "бежать"
+    ],
+    "answer": 2,
+    "explanation": "Написанный обозначает признак предмета, над которым совершили действие.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_7_pilot_002",
+    "curriculum_id": "russian_7",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Укажите действительное причастие.",
+    "options": [
+      "построенный",
+      "читающий",
+      "решённый",
+      "закрытый"
+    ],
+    "answer": 1,
+    "explanation": "Читающий обозначает признак того, кто сам совершает действие.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_7_pilot_003",
+    "curriculum_id": "russian_7",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Как пишется НЕ: «... прочитанная мною книга»?",
+    "options": [
+      "Непрочитанная",
+      "Не-прочитанная",
+      "Ни прочитанная",
+      "Не прочитанная"
+    ],
+    "answer": 3,
+    "explanation": "При зависимых словах мною НЕ с полным причастием пишется раздельно.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_7_pilot_004",
+    "curriculum_id": "russian_7",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Какое деепричастие совершенного вида?",
+    "options": [
+      "решив",
+      "решая",
+      "читая",
+      "думая"
+    ],
+    "answer": 0,
+    "explanation": "Решив отвечает на вопрос что сделав? и обозначает завершённое добавочное действие.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_7_pilot_005",
+    "curriculum_id": "russian_7",
+    "subject": "russian",
+    "topic": "Причастия и деепричастия",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Выберите верную пунктуацию.",
+    "options": [
+      "Закончив работу мы, ушли.",
+      "Закончив, работу мы ушли.",
+      "Закончив работу, мы ушли.",
+      "Закончив работу мы ушли."
+    ],
+    "answer": 2,
+    "explanation": "Деепричастный оборот закончив работу отделяется запятой.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "russian_8_pilot_001",
+    "curriculum_id": "russian_8",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какой член предложения отвечает на вопросы косвенных падежей?",
+    "options": [
+      "Подлежащее",
+      "Дополнение",
+      "Определение",
+      "Обстоятельство"
+    ],
+    "answer": 1,
+    "explanation": "Дополнение обозначает предмет и отвечает на вопросы косвенных падежей.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_8_pilot_002",
+    "curriculum_id": "russian_8",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Определите тип предложения: «Вечереет».",
+    "options": [
+      "Безличное",
+      "Назывное",
+      "Определённо-личное",
+      "Неопределённо-личное"
+    ],
+    "answer": 0,
+    "explanation": "Безличное предложение сообщает о состоянии без действующего лица.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_8_pilot_003",
+    "curriculum_id": "russian_8",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Определите тип предложения: «Тихий вечер».",
+    "options": [
+      "Безличное",
+      "Двусоставное",
+      "Определённо-личное",
+      "Назывное"
+    ],
+    "answer": 3,
+    "explanation": "Главный член называет существование предмета или явления.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_8_pilot_004",
+    "curriculum_id": "russian_8",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какое сказуемое в предложении «Небо было ясным»?",
+    "options": [
+      "Простое глагольное",
+      "Составное глагольное",
+      "Составное именное",
+      "Сказуемого нет"
+    ],
+    "answer": 2,
+    "explanation": "Было — связка, ясным — именная часть составного именного сказуемого.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_8_pilot_005",
+    "curriculum_id": "russian_8",
+    "subject": "russian",
+    "topic": "Простое предложение",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Найдите предложение с однородными сказуемыми.",
+    "options": [
+      "Маша читает, а Петя пишет.",
+      "Маша читает и делает заметки.",
+      "Маша и Петя читают.",
+      "Книги и тетради лежат на столе."
+    ],
+    "answer": 1,
+    "explanation": "Читает и делает относятся к общему подлежащему Маша.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "russian_9_pilot_001",
+    "curriculum_id": "russian_9",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Как соединены части: «Стемнело, зажглись фонари»?",
+    "options": [
+      "Без союза",
+      "Союзом и",
+      "Союзом потому что",
+      "Союзным словом где"
+    ],
+    "answer": 0,
+    "explanation": "Две части связаны по смыслу и интонацией, без союза.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_9_pilot_002",
+    "curriculum_id": "russian_9",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Определите вид придаточного: «Мы остановились там, где начинался лес».",
+    "options": [
+      "Времени",
+      "Причины",
+      "Цели",
+      "Места"
+    ],
+    "answer": 3,
+    "explanation": "Придаточная часть отвечает на вопрос где?",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_9_pilot_003",
+    "curriculum_id": "russian_9",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Определите вид придаточного: «Я вернулся, потому что забыл ключи».",
+    "options": [
+      "Времени",
+      "Причины",
+      "Цели",
+      "Условия"
+    ],
+    "answer": 1,
+    "explanation": "Забыл ключи — причина возвращения.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_9_pilot_004",
+    "curriculum_id": "russian_9",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Определите вид придаточного: «Если потеплеет, мы пойдём гулять».",
+    "options": [
+      "Места",
+      "Времени",
+      "Условия",
+      "Сравнения"
+    ],
+    "answer": 2,
+    "explanation": "Придаточная часть выражает условие прогулки.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_9_pilot_005",
+    "curriculum_id": "russian_9",
+    "subject": "russian",
+    "topic": "Сложное предложение",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Выберите правильную пунктуацию.",
+    "options": [
+      "Дом который стоял у реки, опустел.",
+      "Дом, который стоял у реки, опустел.",
+      "Дом, который стоял у реки опустел.",
+      "Дом который стоял у реки опустел."
+    ],
+    "answer": 1,
+    "explanation": "Придаточная часть который стоял у реки находится внутри главной и выделяется с двух сторон.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "russian_10_pilot_001",
+    "curriculum_id": "russian_10",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Укажите нормативное ударение.",
+    "options": [
+      "тОрты",
+      "тортЫ",
+      "Оба варианта",
+      "Ударения нет"
+    ],
+    "answer": 0,
+    "explanation": "В форме торты ударение падает на первый слог.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_10_pilot_002",
+    "curriculum_id": "russian_10",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Выберите нормативную форму.",
+    "options": [
+      "Ихний дом",
+      "Ихняя книга",
+      "Ихние вещи",
+      "Их дом"
+    ],
+    "answer": 3,
+    "explanation": "В литературной речи употребляется неизменяемое притяжательное местоимение их.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_10_pilot_003",
+    "curriculum_id": "russian_10",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Выберите подходящий пароним: «... способ решения задачи».",
+    "options": [
+      "Эффектный (дающий результат)",
+      "Эффективный",
+      "Эффектовый",
+      "Эффективистский"
+    ],
+    "answer": 1,
+    "explanation": "Эффективный — результативный; эффектный — производящий впечатление.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_10_pilot_004",
+    "curriculum_id": "russian_10",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Какое сочетание содержит речевую избыточность?",
+    "options": [
+      "Быстрый ответ",
+      "Длинная дорога",
+      "Главная суть",
+      "Школьная библиотека"
+    ],
+    "answer": 2,
+    "explanation": "Суть уже означает главное, основное содержание.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_10_pilot_005",
+    "curriculum_id": "russian_10",
+    "subject": "russian",
+    "topic": "Нормы литературного языка",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Выберите нормативное сочетание.",
+    "options": [
+      "Согласно приказу",
+      "Согласно приказа",
+      "Согласно приказом",
+      "Согласно приказ"
+    ],
+    "answer": 0,
+    "explanation": "Предлог согласно требует дательного падежа: приказу.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_11_pilot_001",
+    "curriculum_id": "russian_11",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Какой жанр относится к официально-деловому стилю?",
+    "options": [
+      "Басня",
+      "Заявление",
+      "Дружеская беседа",
+      "Рассказ"
+    ],
+    "answer": 1,
+    "explanation": "Заявление используется в официальном общении.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "russian_11_pilot_002",
+    "curriculum_id": "russian_11",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Выберите правильную пунктуацию.",
+    "options": [
+      "Ребята давайте, начнём.",
+      "Ребята давайте начнём.",
+      "Ребята, давайте начнём.",
+      "Ребята: давайте начнём."
+    ],
+    "answer": 2,
+    "explanation": "Обращение ребята отделяется запятой.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_11_pilot_003",
+    "curriculum_id": "russian_11",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Нужна ли запятая: «Он, конечно, согласится»?",
+    "options": [
+      "Нужны обе запятые",
+      "Нужна только первая",
+      "Нужна только вторая",
+      "Запятые не нужны"
+    ],
+    "answer": 0,
+    "explanation": "Вводное слово конечно выражает уверенность и обособляется.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_11_pilot_004",
+    "curriculum_id": "russian_11",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Выберите правильную пунктуацию.",
+    "options": [
+      "Я взял ручки карандаши и тетради.",
+      "Я взял, ручки, карандаши и тетради.",
+      "Я взял ручки карандаши, и тетради.",
+      "Я взял ручки, карандаши и тетради."
+    ],
+    "answer": 3,
+    "explanation": "Между бессоюзными однородными членами ставится запятая, перед одиночным и — нет.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "russian_11_pilot_005",
+    "curriculum_id": "russian_11",
+    "subject": "russian",
+    "topic": "Пунктуация и стилистика",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Какой знак нужен: «Моя цель ... поступить в университет»?",
+    "options": [
+      "Запятая",
+      "Точка с запятой",
+      "Тире",
+      "Двоеточие"
+    ],
+    "answer": 2,
+    "explanation": "Между подлежащим-существительным и сказуемым-инфинитивом при отсутствии связки ставится тире.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "informatics_7_pilot_001",
+    "curriculum_id": "informatics_7",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Какое устройство выводит изображение?",
+    "options": [
+      "Монитор",
+      "Клавиатура",
+      "Микрофон",
+      "Сканер"
+    ],
+    "answer": 0,
+    "explanation": "Монитор — устройство вывода визуальной информации.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "informatics_7_pilot_002",
+    "curriculum_id": "informatics_7",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Что обычно обозначает расширение .txt?",
+    "options": [
+      "Звуковой файл",
+      "Архив",
+      "Текстовый файл",
+      "Видеофайл"
+    ],
+    "answer": 2,
+    "explanation": "Расширение .txt обычно используется для простого текста.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "informatics_7_pilot_003",
+    "curriculum_id": "informatics_7",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Изображение имеет размеры 10 × 20 пикселей. Сколько в нём пикселей?",
+    "options": [
+      "30",
+      "100",
+      "400",
+      "200"
+    ],
+    "answer": 3,
+    "explanation": "Число пикселей равно произведению ширины и высоты: 10 × 20 = 200.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_7_pilot_004",
+    "curriculum_id": "informatics_7",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Сколько бит содержат 4 байта?",
+    "options": [
+      "4",
+      "32",
+      "16",
+      "64"
+    ],
+    "answer": 1,
+    "explanation": "4 × 8 = 32 бита.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_7_pilot_005",
+    "curriculum_id": "informatics_7",
+    "subject": "informatics",
+    "topic": "Информация и компьютер",
+    "grade_min": 7,
+    "grade_max": 7,
+    "text": "Какой процесс происходит, когда ученик слушает сообщение учителя?",
+    "options": [
+      "Только хранение",
+      "Только удаление",
+      "Получение информации",
+      "Сжатие архива"
+    ],
+    "answer": 2,
+    "explanation": "Ученик получает передаваемую учителем информацию.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_8_pilot_001",
+    "curriculum_id": "informatics_8",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Какие цифры используются в двоичной системе?",
+    "options": [
+      "1 и 2",
+      "0 и 1",
+      "От 0 до 9",
+      "От 0 до 7"
+    ],
+    "answer": 1,
+    "explanation": "Основание системы равно двум, её цифры — 0 и 1.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "informatics_8_pilot_002",
+    "curriculum_id": "informatics_8",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Чему равно двоичное число 1001 в десятичной системе?",
+    "options": [
+      "7",
+      "8",
+      "10",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "1001₂ = 8 + 1 = 9.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_8_pilot_003",
+    "curriculum_id": "informatics_8",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Чему равно «A ИЛИ B», если A ложно, B истинно?",
+    "options": [
+      "Истина",
+      "Ложь",
+      "Число 2",
+      "Не определено"
+    ],
+    "answer": 0,
+    "explanation": "Дизъюнкция истинна, если истинен хотя бы один операнд.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_8_pilot_004",
+    "curriculum_id": "informatics_8",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Было x = 2. Три раза выполнили x = x × 2. Чему равно x?",
+    "options": [
+      "6",
+      "8",
+      "16",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "После повторений получаем 4, 8, 16.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_8_pilot_005",
+    "curriculum_id": "informatics_8",
+    "subject": "informatics",
+    "topic": "Системы счисления, логика и алгоритмы",
+    "grade_min": 8,
+    "grade_max": 8,
+    "text": "Было x = 5. Если x > 3, вычитаем 2, иначе прибавляем 4. Затем удваиваем x. Результат?",
+    "options": [
+      "14",
+      "6",
+      "18",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "Условие истинно: x = 5 − 2 = 3. Затем x = 3 × 2 = 6.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "informatics_9_pilot_001",
+    "curriculum_id": "informatics_9",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Что является информационной моделью поездки?",
+    "options": [
+      "Автобус",
+      "Билетная касса",
+      "Расписание маршрута",
+      "Двигатель"
+    ],
+    "answer": 2,
+    "explanation": "Расписание описывает маршрут и время движения с помощью информации.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "informatics_9_pilot_002",
+    "curriculum_id": "informatics_9",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "У графа три вершины A, B, C и рёбра A–B, B–C. Какова степень B?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "С B соединены два ребра.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_9_pilot_003",
+    "curriculum_id": "informatics_9",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Граф дорог: A–B = 2, B–D = 5, A–C = 4, C–D = 2. Других дорог нет. Кратчайший путь A–D?",
+    "options": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 3,
+    "explanation": "Через B: 2 + 5 = 7; через C: 4 + 2 = 6. Минимум — 6.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_9_pilot_004",
+    "curriculum_id": "informatics_9",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "Сколько рёбер у дерева с пятью вершинами?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "answer": 0,
+    "explanation": "У дерева с n вершинами ровно n − 1 ребро.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_9_pilot_005",
+    "curriculum_id": "informatics_9",
+    "subject": "informatics",
+    "topic": "Модели и графы",
+    "grade_min": 9,
+    "grade_max": 9,
+    "text": "В графе есть рёбра A–B, B–C, C–A, C–D. Какая вершина имеет степень 3?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "С C соединены рёбра B–C, C–A и C–D.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "informatics_10_pilot_001",
+    "curriculum_id": "informatics_10",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Сколько различных кодов длиной 4 бита существует?",
+    "options": [
+      "4",
+      "8",
+      "32",
+      "16"
+    ],
+    "answer": 3,
+    "explanation": "2⁴ = 16 двоичных комбинаций.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "informatics_10_pilot_002",
+    "curriculum_id": "informatics_10",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Алфавит из 8 символов кодируют равномерным двоичным кодом минимальной длины. Бит на символ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "2³ = 8, значит нужны три бита.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_10_pilot_003",
+    "curriculum_id": "informatics_10",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Каждый из 40 символов занимает 6 бит. Каков объём текста?",
+    "options": [
+      "240 бит",
+      "46 бит",
+      "240 байт",
+      "40 бит"
+    ],
+    "answer": 0,
+    "explanation": "40 × 6 = 240 бит.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_10_pilot_004",
+    "curriculum_id": "informatics_10",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Чему равно НЕ (A ИЛИ B), если оба высказывания ложны?",
+    "options": [
+      "Ложь",
+      "Число 0",
+      "Истина",
+      "Не определено"
+    ],
+    "answer": 2,
+    "explanation": "A ИЛИ B ложно; отрицание ложного высказывания истинно.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_10_pilot_005",
+    "curriculum_id": "informatics_10",
+    "subject": "informatics",
+    "topic": "Кодирование и логика",
+    "grade_min": 10,
+    "grade_max": 10,
+    "text": "Коды A = 0 и B = 10. Какой код C сохранит условие Фано?",
+    "options": [
+      "01",
+      "1",
+      "100",
+      "11"
+    ],
+    "answer": 3,
+    "explanation": "0, 10, 11 не являются префиксами друг друга. В других вариантах один код — начало другого.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "informatics_11_pilot_001",
+    "curriculum_id": "informatics_11",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Как называется программа, обслуживающая запросы браузера к сайту?",
+    "options": [
+      "Графический редактор",
+      "Веб-сервер",
+      "Калькулятор",
+      "Архиватор"
+    ],
+    "answer": 1,
+    "explanation": "Веб-сервер обрабатывает HTTP-запросы и отправляет ответы.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "informatics_11_pilot_002",
+    "curriculum_id": "informatics_11",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Что используют для адресации устройств в IP-сети?",
+    "options": [
+      "Имя файла",
+      "Размер экрана",
+      "IP-адрес",
+      "Цвет значка"
+    ],
+    "answer": 2,
+    "explanation": "IP-адрес используется для адресации узла в сети.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "informatics_11_pilot_003",
+    "curriculum_id": "informatics_11",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Как безопаснее поступить с неожиданной ссылкой «введите пароль для получения приза»?",
+    "options": [
+      "Открыть официальный сайт самостоятельно и проверить информацию",
+      "Ввести пароль",
+      "Переслать пароль отправителю",
+      "Отключить защиту браузера"
+    ],
+    "answer": 0,
+    "explanation": "Проверка через самостоятельно открытый официальный ресурс уменьшает риск фишинга.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_11_pilot_004",
+    "curriculum_id": "informatics_11",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Что означает двухфакторная аутентификация?",
+    "options": [
+      "Два одинаковых пароля",
+      "Два браузера",
+      "Два логина",
+      "Два разных фактора, например пароль и одноразовый код"
+    ],
+    "answer": 3,
+    "explanation": "Нужны два различных фактора подтверждения личности, например знание пароля и владение устройством.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "informatics_11_pilot_005",
+    "curriculum_id": "informatics_11",
+    "subject": "informatics",
+    "topic": "Компьютерные сети и защита информации",
+    "grade_min": 11,
+    "grade_max": 11,
+    "text": "Какой вариант резервирования защищает от отказа основного диска?",
+    "options": [
+      "Копия в соседней папке на нём",
+      "Проверенная копия на независимом носителе",
+      "Ярлык на рабочем столе",
+      "Изменение имени файла"
+    ],
+    "answer": 1,
+    "explanation": "При отказе основного диска независимый носитель сохраняет резервную копию.",
+    "difficulty": "medium"
   }
 ]

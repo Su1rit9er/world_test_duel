@@ -1,17 +1,18 @@
+import asyncio
+import logging
 import os
 import socket
 import ssl
 import sys
-import time
 from pathlib import Path
 
 from quiz import Quiz
-from buttons import Buttons, prepare
+from storage import import_db
 
 
 def console():
-    quiz = Quiz()
-    print(quiz.handle(0, '/start')[0][1])
+    app = Quiz().app
+    print(app.text(0, 'меню')[0].text)
     while True:
         try:
             text = input('> ')
@@ -20,8 +21,8 @@ def console():
             break
         if text == '/exit':
             break
-        for uid, msg in quiz.handle(0, text):
-            print(msg)
+        for reply in app.text(0, text):
+            print(reply.text)
 
 
 def error(err):
@@ -48,18 +49,11 @@ def error(err):
     return f'Ошибка {type(err).__name__}. Проверь подключение и формат ответа MAX.'
 
 
-def call(api, method, path, **args):
-    res = api.request(method, path, **args)
-    res.raise_for_status()
-    data = res.json()
-    if data.get('success') is False:
-        raise RuntimeError('MAX отклонил запрос')
-    return data
-
-
-def run():
+async def run_async():
     import httpx
     from dotenv import load_dotenv
+    from backend import Backend, Remote, Sender, StopBot
+    from max_adapter import Buttons
 
     root = Path(__file__).resolve().parent
     load_dotenv(root / '.env')
@@ -71,11 +65,14 @@ def run():
         ctx.load_verify_locations(cafile=str(root / 'max-ca.pem'))
     except (OSError, ssl.SSLError):
         raise SystemExit('Не удалось прочитать max-ca.pem. Восстанови сертификат в папке проекта.')
-    with httpx.Client(base_url='https://platform-api2.max.ru', verify=ctx,
-                      headers={'Authorization': token}, timeout=40) as api:
+    limits = httpx.Limits(max_connections=20, max_keepalive_connections=12)
+    timeout = httpx.Timeout(35, connect=5, write=10, pool=5)
+    async with httpx.AsyncClient(base_url='https://platform-api2.max.ru', verify=ctx,
+                                 headers={'Authorization': token}, timeout=timeout, limits=limits) as client:
+        api = Remote(client)
         try:
-            call(api, 'GET', '/me')
-            data = call(api, 'GET', '/subscriptions')
+            me = await api.call('GET', '/me')
+            data = await api.call('GET', '/subscriptions')
         except (httpx.HTTPError, ValueError, RuntimeError) as err:
             raise SystemExit(error(err)) from None
         if data.get('subscriptions'):
@@ -84,51 +81,31 @@ def run():
         if '--check' in sys.argv:
             return
         quiz = Quiz()
-        ui = Buttons(quiz)
-        marker = None
-        batch = []
-        pending = []
+        app = quiz.app
+        ui = Buttons(app, me.get('username', ''))
         print('Бот запущен. Для остановки нажми Ctrl+C.')
-        while True:
-            try:
-                if not batch:
-                    args = {'timeout': 30, 'types': 'bot_started,message_created,message_callback'}
-                    if marker is not None:
-                        args['marker'] = marker
-                    data = call(api, 'GET', '/updates', params=args)
-                    batch = data.get('updates', [])
-                    marker = data.get('marker', marker)
-                while batch:
-                    if not pending:
-                        pending = prepare(ui, batch[0])
-                        if not pending:
-                            batch.pop(0)
-                            continue
-                    path, args, body = pending[0]
-                    call(api, 'POST', path, params=args, json=body)
-                    pending.pop(0)
-                    if not pending:
-                        batch.pop(0)
-                    time.sleep(0.6)
-            except (httpx.HTTPError, ValueError, RuntimeError) as err:
-                print(error(err))
-                if isinstance(err, httpx.HTTPStatusError):
-                    code = err.response.status_code
-                    if code in (401, 409):
-                        raise SystemExit('Бот остановлен. Исправь указанную причину и запусти снова.')
-                    if 400 <= code < 500 and code != 429:
-                        if not pending:
-                            raise SystemExit('Бот остановлен из-за ошибки запроса.')
-                        pending.pop(0)
-                        if not pending:
-                            batch.pop(0)
-                print('Повтор через 5 секунд.')
-                time.sleep(5)
+        try:
+            async with asyncio.TaskGroup() as group:
+                out = Sender(api, group)
+                backend = Backend(api, ui, out)
+                group.create_task(backend.poll())
+                group.create_task(backend.process())
+        except* StopBot as errors:
+            raise SystemExit(str(errors.exceptions[0])) from None
+
+
+def run():
+    logging.basicConfig(level=logging.WARNING, format='%(levelname)s: %(message)s')
+    asyncio.run(run_async())
 
 
 if __name__ == '__main__':
     try:
-        if '--console' in sys.argv:
+        if '--import-db' in sys.argv:
+            if len(sys.argv) != 3 or sys.argv[1] != '--import-db':
+                raise SystemExit('Укажи --import-db и путь к исходной базе.')
+            import_db(sys.argv[2])
+        elif '--console' in sys.argv:
             console()
         else:
             run()

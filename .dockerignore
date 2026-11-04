@@ -1,0 +1,17 @@
+**
+!Dockerfile
+!requirements.txt
+!main.py
+!quiz.py
+!duel.py
+!progress.py
+!buttons.py
+!view.py
+!storage.py
+!questions.json
+!max-ca.pem
+!backend.py
+!prefs.py
+!app.py
+!screens.py
+!max_adapter.py

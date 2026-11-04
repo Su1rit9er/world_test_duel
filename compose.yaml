@@ -1,0 +1,14 @@
+services:
+  bot:
+    build: .
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 45s
+    environment:
+      MAX_BOT_TOKEN: ${MAX_BOT_TOKEN:?Укажи MAX_BOT_TOKEN в .env}
+      DATABASE_PATH: /data/stats.db
+    volumes:
+      - bot-data:/data
+
+volumes:
+  bot-data:
