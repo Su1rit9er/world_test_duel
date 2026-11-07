@@ -1,16 +1,26 @@
 from html import escape
 
-
-LEVELS = {'easy': 'Базовый', 'medium': 'Средний', 'hard': 'Сложный', 'all': 'Смешанный'}
-
+LEVELS = {
+    'easy': 'Базовый',
+    'medium': 'Средний',
+    'hard': 'Сложный',
+    'all': 'Смешанный'
+}
 
 def question(q, pos, total, title, context=''):
     level = LEVELS.get(q.get('difficulty'), 'Смешанный')
-    opts = '\n\n'.join(f'{i}) {v}' for i, v in enumerate(q['options'], 1))
+    opts = '\n\n'.join(
+        f'{i}) {v}' for i, v in enumerate(q['options'], 1)
+    )
     info = context + '\n' if context else ''
-    return (f'{title} · {pos + 1}/{total}\n{info}Сложность: {level.lower()}\n\n'
-            f"{q['text']}\n\n{opts}\n\nВыбери ответ кнопкой ниже.")
-
+    head = f'{title} · {pos + 1}/{total}\n{info}Сложность: {level.lower()}'
+    topic = q.get('topic', '').strip()
+    if topic:
+        head += f'\nТема: {topic}'
+    return (
+        f"{head}\n\n{q['text']}\n\n{opts}\n\n"
+        'Выбери ответ кнопкой ниже.'
+    )
 
 def render(text):
     marks = ('🏁 ', '📊 ', '⚔ ', '✏ ', '🎯 ', '📖 ')
